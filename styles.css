@@ -73,6 +73,14 @@ h1 {
         border-style: none;
         background-color: #2296E8;
         color: white;
+        transition: all ease-in-out 350ms;
+    }
+    button:hover {
+        background-color: #144AB3;
+        cursor: pointer;
+    }
+    button:active {
+        background-color: #144AB3;
     }
 }
 
@@ -146,5 +154,6 @@ h2#cmVolume, h2#literLuas, h2#cmKuadrat {
         font-size: 3.75rem;
         line-height: 4.438rem;
         letter-spacing: -2%;
+        transition: all ease-in-out 500ms;
     }
 }
