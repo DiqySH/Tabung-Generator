@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pencari Luas & Volume Tabung</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="satu">
+            <div class="satu-section">
+                <img src="/images/tabung-image.svg" alt="">
+                <h1 id="judul">Pencari Luas & Volume Tabung</h1>
+            </div>
+        </section>
+        <section class="dua">
+            <div class="dua-section">
+                <label for="jariJari">
+                    <p>Masukkan jari-jari tabung (r) (satuan cm)</p>
+                    <input placeholder="Jari-jari (r)" id="jariJari" type="number">
+                </label>
+                <label for="tinggi">
+                    <p>Masukkan tinggi tabung (t) (satuan cm)</p>
+                    <input placeholder="Tinggi (t)" id="tinggi" type="number">
+                </label>
+                <button id="submit">Submit</button>
+            </div>
+        </section>
+        <section class="tiga">
+            <div class="tiga-section">
+                <div class="blue-container">
+                    <div class="volume-section">
+                        <p>Volume</p>
+                        <div class="jawaban-volume">
+                            <h2 id="cmVolume"><span id="cmKubik">0</span> cm3 /</h2>
+                            <h2 id="literLuas"><span id="liter">~0</span> liter</h2>
+                        </div>
+                    </div>
+                    <div class="LP-section">
+                        <p>Luas Permukaan</p>
+                        <h2 id="cmKuadrat"><span id="kuadrat">0</span> cm2</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/main.js"></script>
+</body>
+</html>
